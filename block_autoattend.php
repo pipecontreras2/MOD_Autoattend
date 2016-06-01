@@ -71,7 +71,7 @@ class block_autoattend extends block_base
 										'&amp;from=home">'.get_string('students_list','block_autoattend').'</a><br />';
 										
 			//imagen de codigo QR.
-			$this->content->text.='<img src="qrcode.jpg" height="150" width="150" align="left">'.'<br />';
+			$this->content->text.='<img src="qrcode.jpg" height="150" width="150">'.'<br />';
 			
 			$this->content->text.= '<a href="'.$CFG->wwwroot.'/blocks/autoattend/report.php?course='.$course->id.'&amp;class='.$classid.
 										'&amp;from=home&amp;view=months&amp;refresh=1">'.get_string('report','block_autoattend').'</a><br />';
