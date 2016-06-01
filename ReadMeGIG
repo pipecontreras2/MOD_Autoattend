@@ -1,0 +1,4 @@
+//Para este plug in, es necesario descargar todos los archivos y agregarlos a un zip.
+Luego, debemos ir a la pagina de moodle como administrador y ir a la opción de install plug ins.
+Arrastramos el zip file a la cajilla de descarga y agregamos el plug in. Se debe instalar en moodle, 
+Una vez instalado es necesario actualizar la base de datos y la página va a solocitarlo de manera automática.
